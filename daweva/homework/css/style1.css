@@ -1,0 +1,31 @@
+body{
+    background-color: teal;
+    text-align: center;
+}
+.biography{
+    color: chartreuse;
+}
+.name{
+    color: coral;
+}
+.nickname{
+    color: cyan;
+}
+.lastname{
+    color: violet;
+}
+.birthday{
+    color: rgb(219, 32, 32);
+}
+.age{
+    color:gold;
+}
+.email{
+    color: rgb(127, 80, 255);
+}
+.phone{
+    color: rgb(255, 80, 133);
+}
+.gender{
+    color: rgb(63, 240, 137);
+}

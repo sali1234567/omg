@@ -1,0 +1,36 @@
+.main{
+
+    background-color: rgba(36, 207, 156, 0.826);
+}
+.header{
+    position:absolute;
+    top: 25px;
+    right:200px;
+    text-align: center;
+}
+.font{
+    font-size: 50px;
+}
+.beginner{
+    color: rgba(240, 242, 244, 0.799);
+}
+.hello{
+    color: rgba(240, 242, 244, 0.799);
+}
+table,td{
+    border: 2px solid;
+  }
+table{
+    position: absolute;
+    top: 318px;
+    right: 25px;
+  }
+  div{
+    color: rgba(240, 242, 244, 0.799);
+  }
+  .you{
+    font-size: 7;
+  }
+  .wow{
+    text-align: center;
+  }
