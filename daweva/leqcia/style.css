@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(90deg, rgb(144, 0, 255), rgb(217, 255, 0), rgb(255, 0, 170));
+}
+
+h1{
+    margin-left:500px  ;
+    color: rgb(0, 4, 255)
+}
+
+.whatishtml{
+    font-size: 30px;
+}
+
+.Markup{
+    color: rgb(133, 255, 77);
+    font-style: italic;
+}
+
+.Markup:hover{
+    background-color: rgb(42, 138, 165);
+}
+
+.structure{
+    color: rgb(250, 0, 0);
+    font-style: italic;
+}
+
+.structure:hover{
+    background-color: rgb(255, 255, 31);
+}
+
+.htmlcssjs{
+    margin-left: 250px;
+}
+
+.HTML{
+    margin-left:25% ;
+    color: green;
+    font-size: larger;
+}
+
+.HTML:hover{
+    background-color: rgb(42, 165, 42);
+}
+
+.CSS{
+    margin-left:250px ;
+    color:fuchsia;
+    font-size: larger;
+}
+
+.CSS:hover{
+    background-color: rgb(149, 42, 165);
+}
+
+.JS{
+    position: absolute;
+    top: 220px;
+    left: 880px;
+    color:rgb(0, 225, 250);
+    font-size: larger;
+}
+
+.JS:hover{
+    background-color: rgb(61, 42, 165);    
+}
+
+.tags{
+    font-size: larger;
+}
+
+.ol1{
+    list-style-type: square;
+    font-size: large;
+}
+
+.Document{
+    margin-left: 500px;
+    color:rgb(0, 4, 255) ;
+}
+
+.DOCTYPE{
+    color: aqua;
+}
+
+.Example{
+    color: rgb(100, 237, 136);
+}
+
+.try{
+    background-color:mediumturquoise;
+    font-size: larger;
+}
+
+
+.Explain{
+    color: rgb(100, 237, 136);
+}
+
+.doc{
+    color: deeppink;
+    background-color: rgba(203, 203, 203, 0.58);
+}
+
+.doc:hover{
+    background-color: pink;
+}
+
+table{
+    border: 2px solid;
+    border-radius: 20px
+}
+
+td{
+    border: 1px dashed;
+    border-radius: 20px;
+}
+
+.maintable{
+    margin-left: 240px;
+}
+
+.learnmore{
+    color:#7d00f3;
+    margin-left: 400px;
+    font-size: larger;
+}
+
+.learnmore:hover{
+    background-color: rgb(209, 56, 161);
+}
+.learnmore:active{
+    background-color: aqua;
+}
+.sololearn{
+    text-decoration: none;
+    cursor:pointer;
+}
