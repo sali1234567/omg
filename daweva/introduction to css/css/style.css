@@ -1,0 +1,125 @@
+body{
+    background-image:url(matrix.jpg);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 100, 0, 0.388);
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    text-shadow:5px 5px 5px rgba(212, 52, 20, 0.861) ;
+}
+
+h1::first-letter{
+    font-size: 200%;
+    color: rgb(56, 198, 56);
+}
+
+
+a{
+    color: white;
+}
+
+li{
+    font-size: larger;
+}
+
+p{
+    font-size: larger;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+.css, .introduction{
+    display: inline-block;
+    font-size:40px;
+    margin: 0 50px;
+
+}
+
+.introduction:hover{
+    background-color: darkgreen;
+    border: 5px dashed white;
+    border-radius: 10px;
+    color: red;
+}
+
+.csslogo{
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.csslogo:hover{
+    background-color: blue;
+    border:5px dotted white;
+    border-radius: 50%;
+}
+
+.first-page{
+    border: 3px solid rgba(255, 255, 255, 0.876);
+    border-radius: 10px;
+    background-color: rgba(0, 100, 0, 0.876);
+    width: 1500px;
+    padding: 40px;
+    margin:150px 50px;
+}
+
+.second-page{
+    border: 3px solid rgba(255, 255, 255, 0.876);
+    border-radius: 10px;
+    background-color: rgba(0, 100, 0, 0.876);
+    width: 1500px;
+    padding: 40px;
+    margin:150px 50px;
+}
+
+.third-page{
+    border: 3px solid rgba(255, 255, 255, 0.876);
+    border-radius: 10px;
+    background-color: rgba(0, 100, 0, 0.876);
+    width: 1500px;
+    padding: 40px;
+    margin:150px 50px;
+}
+
+.what-is-css{
+    text-align: center;
+}
+
+.red{
+    color:  #FF0000;
+}
+
+.green{
+    color: rgb(0, 255, 0);
+}
+
+.semi-transparent-blue{
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.blue{
+    color: hsl(240, 100%, 50%);
+}
+
+.semi-transparent-red{
+    color: hsla(0, 100%, 50%, 0.5);
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="main-page">
+    <header>
+        <span class="csslogo">
+            <a href="#main-page">
+                <img src="images/logo.png" alt="csslogo" height="100px">
+            </a>
+        </span>
+        <nav class="css">
+            <ul>
+                <a href="#what_is_css">
+                    <li class="introduction">What is CSS ?</li>
+                </a>
+                <a href="#css_basics">
+                    <li class="introduction">CSS basics</li>
+                </a>
+                <a href="#css_colors">
+                    <li class="introduction">CSS colors</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main class="first-page" id="what_is_css">
+        <h1 class="what-is-css">What is CSS ?</h1>
+        <h2 class="what-is-css">CSS is the language we use to style a Web page</h2>
+        <br>
+        <nav>
+            <ul>
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+                <hr>
+            </ul>
+        </nav>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!<br>HTML was created to describe the content of a web page, like:<br><br>&lt;h1&gt;This is a heading&lt;/h1&gt;<br>&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>When tags like &lt;font&gt;, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.<br>To solve this problem, the World Wide Web Consortium (W3C) created CSS.<br>CSS removed the style formatting from the HTML page!</p>
+    </main>
+    <main class="second-page" id="css_basics">
+        <h1 class="what-is-css">CSS basics</h1>
+        <h2 class="what-is-css">CSS properties are used to define the visual appearance, layout, and behavior of HTML elements on a webpage.</h2>
+        <br>
+        <nav>
+            <ul>
+                <li>color: Specifies the color of the text content. <img src="images/color-circle.png" alt="color-circle" width="20px"></li>
+                <li>font-size: Sets the size of the font used for text. <img src="images/font-size.png" alt="font-size" width="20px"></li>
+                <li>font-family: Specifies the typeface or font family to be used for text. <img src="images/fonts.png" alt="fonts" width="20px"></li>
+                <li>background-color: Sets the background color of an element. <img src="images/color-circle.png" alt="color-circle" width="20px"></li>
+                <li>width and height: Defines the width and height dimensions of an element.<img src="images/measurement.png" alt="measurement" width="40px"></li>
+                <li>margin and padding: Controls the spacing around an element. margin sets the space outside the element, while padding sets the space inside the element.</li>
+                <li>border: Sets the properties of an element's border, including width, style, and color. <img src="images/border.png" alt="border" width="40px"></li>
+                <li>display: Determines how an element is displayed, such as block, inline, or inline-block.</li>
+                <li>position: Specifies the positioning method of an element, such as relative, absolute, or fixed.</li>
+                <li>float: Controls the horizontal alignment of an element within its containing element.</li>
+                <li>text-align: Sets the alignment of text within an element, such as left, right, center, or justify.</li>
+                <li>box-shadow and text-shadow: Adds a shadow effect to an element. <img src="images/shadow.png" alt="shadow" width="20px"></li>
+                <li>z-index: Determines the stacking order of overlapping elements.</li>
+            </ul>
+        </nav>
+    </main>
+    <main class="third-page" id="css_colors">
+        <h1 class="what-is-css">CSS colors</h1>
+        <h2 class="what-is-css">Color selection in CSS with several different methods, we can highlight three main principles of color selection: Hexadecimal, RGB, and HSL. There are also RGBA and HSLA. Now I will talk about each of them.</h2>
+        <nav>
+            <ul>
+                <li>Hexadecimal Notation: Colors can be represented using a six-digit hexadecimal value. Each pair of digits represents the intensity of red, green, and blue (RGB) respectively. For example:<span class="red"><br><br>p {<br>color: #FF0000; /* red */<br>}</span></li><br>
+                <form>
+                    <label for="hex code">HEX code</label>
+                    <br>
+                    <input type="text" id="hex code" placeholder="#ffffff">
+                </form>
+                <br>
+                <li>RGB Notation: Colors can be specified using the RGB color model, where you define the intensity of red, green, and blue individually. Each value ranges from 0 to 255. For example:<span class="green"><br><br>span {<br>color: rgb(0, 255, 0); /* green */<br>}</span></li><br>
+                <form>
+                    <label for="rgb code">RGB code</label>
+                    <br>
+                    <input type="text" id="rgb code" placeholder="255, 255, 255">
+                </form>
+                <br>
+                <li>RGBA Notation: Similar to RGB, RGBA allows you to specify an additional alpha value representing the opacity or transparency of the color. The alpha value ranges from 0 to 1. For example:<span class="semi-transparent-blue"><br><br>div {<br>color: rgba(0, 0, 255, 0.5); /* semi-transparent blue */<br>}</span></li><br>
+                <form>
+                    <label for="rgba code">RGBA code</label>
+                    <br>
+                    <input type="text" id="rgba code" placeholder="255, 255, 255, 1">
+                </form>
+                <br>
+                <li>HSL Notation: The HSL (Hue, Saturation, Lightness) color model provides an alternative way to specify colors. Hue represents the color itself, saturation controls the intensity, and lightness controls the brightness. For example:<span class="blue"><br><br>a {<br>color: hsl(240, 100%, 50%); /* blue */<br>}</span></li><br>
+                <form>
+                    <label for="hsl code">HSL code</label>
+                    <br>
+                    <input type="text" id="hsl code" placeholder="0, 100%, 100%">
+                </form>
+                <br>
+                <li>HSLA Notation: Similar to HSL, HSLA allows you to specify an additional alpha value for transparency. For example:<span class="semi-transparent-red"><br><br>button {<br>color: hsla(0, 100%, 50%, 0.5); /* semi-transparent red */<br> }</span></li><br>
+                <form>
+                    <label for="hsla code">HSL code</label>
+                    <br>
+                    <input type="text" id="hsl code" placeholder="0, 100%, 100%, 1">
+                </form>
+                <br>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
