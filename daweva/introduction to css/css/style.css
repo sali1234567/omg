@@ -1,5 +1,5 @@
 body{
-    background-image:url(matrix.jpg);
+    background-image:url(../images/matrix.jpg);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -15,6 +15,7 @@ header{
     display: flex;
     position: sticky;
     top: 0;
+    transition: ;
 }
 
 h1{
@@ -24,6 +25,7 @@ h1{
 h1::first-letter{
     font-size: 200%;
     color: rgb(56, 198, 56);
+    text-
 }
 
 
@@ -31,11 +33,7 @@ a{
     color: white;
 }
 
-li{
-    font-size: larger;
-}
-
-p{
+li, p{
     font-size: larger;
 }
 
@@ -48,11 +46,18 @@ input{
     font-size: 20px;
 }
 
+.invisible1{
+   width: 10px;
+   height: 10px;
+   background-color: #ff000000;
+   margin-left: 850px;
+   margin-top: 80px;
+}
+
 .css, .introduction{
     display: inline-block;
     font-size:40px;
     margin: 0 50px;
-
 }
 
 .introduction:hover{
